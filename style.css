@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*{
+    margin: 0;
+     padding: 0;
+}
+body{
+    align-items: center;
+    background: linear-gradient(#F5EDCE, #89C4E1);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+section {
+    padding-top: 20px;
+}
+.container{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+    background: rgb(24, 23, 23);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px; 
+    
+}
+#input{
+    height: 50px;
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    padding: 10px;
+    width: 375px;
+    text-align: right;
+}
+
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.button{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 24px;
+    flex-basis: 20%;
+    height: 65px;
+}
+.button:last-child{
+    backdrop-filter: blur(5,5px);
+    -webkit-backdrop-filter: blur(5,5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #5182dd;
+}
+.button:last-child:hover{
+    background-color: #fff;
+    color: inherit;
+}
+.button:hover{
+    background-color: #89C4E1;
+}
+.button:active{
+    background-color: #ffef78;
+}
+.button:last-child:active{
+    background-color: #FFD4B2;
+}
+.double{
+    flex-basis: 47%;
+    background-color: #f16507;
+}
+.triple{
+    flex-basis: 47%;
+}
+#result{
+    background-color: #f16507;
+}
+p {
+    color: #fff;
+}
